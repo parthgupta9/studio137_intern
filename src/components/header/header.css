@@ -1,0 +1,14 @@
+.header{
+    color: orangered;
+    
+    margin-left: 47%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    width: max-content;
+    text-align: center;
+    z-index: 1000;
+
+}
+.container{
+    
+}

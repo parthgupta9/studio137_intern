@@ -1,0 +1,42 @@
+.progress-container {
+    position: relative;
+    width: 80vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+  }
+  
+  .progress-line {
+    position: absolute;
+    top: 30%;
+    left: 2px;
+    right: 2px;
+    height: 4px;
+    background-color: grey;
+    z-index: 0;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(128, 127, 127);
+    border: 2px solid rgb(128, 127, 127);
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .dot.active {
+    background-color: grey;
+  }
+  .dot-label {
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+  }
+  
+
+  
